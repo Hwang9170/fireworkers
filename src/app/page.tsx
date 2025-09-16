@@ -68,7 +68,7 @@ export default function Home() {
               <Image
                 src="/characters/갈고리.png"
                 alt="갈고리"
-                width={70}
+                width={60}
                 height={70}
                 style={{
                   position: "absolute",
@@ -155,7 +155,7 @@ export default function Home() {
 
           <p className="hero__subtitle reveal">
             <span style={{ color: "black" }}>
-              뜨거워진 축제를 식혀주는 <b>쿨~한 우리!</b>
+              우리는 쇠맛 대신 <b> 불맛이다 !</b>
             </span>
           </p>
         </div>
