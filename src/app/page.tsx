@@ -11,32 +11,16 @@ export default function Home() {
 
   const qnaList = [
     {
-      q: '질문질문질문',
-      a: '답변 답변 답변'
-    },
-    {
       q: '참여 인원에 제한이 있나요?',
-      a: '행사별로 모집 인원이 정해져 있으며, 선착순 마감될 수 있습니다.'
+      a: '9월 20일(토) 남산편 - 남자 30명, 여자 30명\n9월 28일(일) 불꽃축제편 - 100명'
     },
     {
-      q: '남산런 참여가 완료되었는지 어떻게 확인하나요?',
-      a: '참여 후 안내 문자를 통해 결과 및 인증 방법을 안내드립니다.'
+      q: '참여 신청 후 확인은 어떻게 하나요?',
+      a: '입력해주신 개인정보로 신청 확정 문자가 발송됩니다.\n(9월 25일(목)까지 최종 문자 발송)'
     },
     {
-      q: '후원/결제 관련 문의는 어디로 연락하나요?',
-      a: '불꽃살림단 대표 이메일 fireworks_seoul@onair168.com 또는 행사 안내문에 기재된 연락처로 문의해 주세요.'
-    },
-    {
-      q: '불꽃 살림단 질문질문',
-      a: '답변 답변'
-    },
-    {
-      q: '질문질문',
-      a: '답변'
-    },
-    {
-      q: '불꽃 살림단은 어떤 단체인가요?',
-      a: '불꽃 살림단은 기후위기 대응을 위한 시민단체로, 다양한 캠페인과 활동 ~~~~ 펼치고 있습니다.'
+      q: '후원 등 기타 문의는 어디로 하면 되나요?',
+      a: '불꽃살림단 대표 이메일 fireworks_seoul@onair168.com 또는 02-706-0168로 연락주세요.'
     },
   ];
 
@@ -71,7 +55,7 @@ export default function Home() {
     );
   }
   // Formspree hook
-  const [state, handleSubmit] = useForm("mgvljyne"); // ⬅️ 폼 ID 연결
+  const [state, handleSubmit] = useForm("mgvljyne"); 
 
   // 스크롤 등장 & 패럴랙스
   useEffect(() => {
@@ -302,22 +286,19 @@ export default function Home() {
 </div>
         </div>
         <div style={{ fontSize: '1rem', lineHeight: 1.7, marginBottom: '18px' }}>
-          단체명 :불꽃살림단 | 대표자 : 전민제<br />
-          사업자등록번호 :000 | 전화번호 : 02-0000-0000<br />
           이메일 : fireworks_seoul@onair168.com<br />
-          주소 : (0000) 서울시 아직 미정
+          전화번호 : 02-706-0168
         </div>
         <div style={{ fontSize: '0.95rem', opacity: 0.7, marginBottom: '18px' }}>
           © 불꽃 살림단. All Rights Reserved.
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '18px', marginTop: '12px' }}>
           <a href="https://www.youtube.com/@fireworks_seoul" target="_blank" rel="noopener noreferrer" aria-label="유튜브" style={{ background: '#fff', borderRadius: '8px', padding: '8px', display: 'inline-block' }}>
-            <img src="/icons/youtube.svg" alt="유튜브" style={{ width: '28px', height: '28px' }} />
+            <img src="/youtube.png" alt="유튜브" style={{ width: '40px', height: '28px' }} />
           </a>
           <a href="https://www.instagram.com/fireworks_seoul" target="_blank" rel="noopener noreferrer" aria-label="인스타그램" style={{ background: '#fff', borderRadius: '8px', padding: '8px', display: 'inline-block' }}>
-            <img src="/icons/instagram.svg" alt="인스타그램" style={{ width: '28px', height: '28px' }} />
+            <img src="/insta.png" alt="인스타그램" style={{ width: '28px', height: '28px' }} />
           </a>
- 
         </div>
       </footer>
 
