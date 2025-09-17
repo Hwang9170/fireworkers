@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "불꽃 살림단 | Keep It Cool",
+  title: "불꽃 살림단 | fireworks_seoul ",
   description: "서울세계불꽃축제 환경 캠페인 - 불꽃 살림단",
   icons: { icon: "/logo.png" },
 };
