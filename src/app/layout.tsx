@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main className="main">{children}</main>
         <footer className="footer">
-          © 2025 불꽃 살림단 • 불꽃은 5분, 쓰레기는 수백 년
+          © 2025 불꽃 살림단 • 불꽃은 9월에 피지만, 변화는 지금입니다
         </footer>
       </body>
     </html>
